@@ -14,11 +14,13 @@ for element in my_list:
 for element in my_list:  # This code is producing results for each iteration instead of one final result
     if element > 5:
         new_list.append(element)
-        print(new_list)
-
-print([ element for element in my_list if element > 5]) # Here is the solution
+        
+print(new_list) # Taking this out of the code block solved the iteration issue, i was asking the system to always print the new list
 
 # Write this in one line of Python.
+print([ element for element in my_list if element > 5]) # Here is a solution
+
+
 # Ask the user for a number  
 
 user_number = int(input("Kindly input a number of your choice: "))
@@ -28,6 +30,6 @@ user_number = int(input("Kindly input a number of your choice: "))
 for element in my_list:
     if element > user_number:
         newlist_user.append(element)
-        print(newlist_user)
 
-print([element for element in my_list if element > user_number])
+print(newlist_user)
+
