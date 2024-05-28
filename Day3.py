@@ -18,7 +18,7 @@ for element in my_list:  # This code is producing results for each iteration ins
 print(new_list) # Taking this out of the code block solved the iteration issue, i was asking the system to always print the new list
 
 # Write this in one line of Python.
-print([ element for element in my_list if element > 5]) # Here is a solution
+print([ element for element in my_list if element > 5]) # Here is a solution in a single code line
 
 
 # Ask the user for a number  
