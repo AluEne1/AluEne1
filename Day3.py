@@ -3,7 +3,7 @@
 my_list =[1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
 new_list = []
 newlist_user = []
-# write a program that prints out all the elements of the list that are less than 5.
+# write a program that prints out all the elements of the list that are greater than 5.
 for element in my_list:
     print(element)
 
@@ -28,7 +28,7 @@ user_number = int(input("Kindly input a number of your choice: "))
 # return a list that contains only elements from the original list a that are smaller than that number given by the user.
 
 for element in my_list:
-    if element > user_number:
+    if element < user_number:
         newlist_user.append(element)
 
 print(newlist_user)
